@@ -1,0 +1,6 @@
+Workflow
+- git remote # show if a remote is setup
+- git remote add origin <url> # set the remote called 'origin' at the <url>
+- git pull origin master # pull what in the remote origin into the master branch
+
+
