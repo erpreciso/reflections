@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+- A new set of folders and files are created, and I need to initialize it so git can store all commit and info in a place
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- It's a place where to store files we want to commit. We can in example discard the mods we started to work on but that will logically relate to a future commit, so we discard that file
+How can you use the staging area to make sure you have one commit per logical change?
+- Adding stuff to it only when a change has been implemented and tested
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- when I know I'm testing new feature or I'm starting a new direction but I want to keep the safe road clean and ready to quick go back
+How do the diagrams help you visualize the branch structure?
+- it helps visualize in which branch I am and where I came from
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Content of both branches are merged together so I can catch up with all mods done and tested in another branch. I also have the history on how I result in that head so it's clear the process leading there.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Save a lot of time by doing the most common tasks would be performed anyway such as include mods occurred on something only one has worked on
+
